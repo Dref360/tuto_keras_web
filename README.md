@@ -14,6 +14,6 @@ I hope this helps!
 ## How to run
 * Start the server `python web.py`
 * Send a request (I recommend Postman)
- * POST http://127.0.0.1:5000/hello
- * The body should have field `'file'` with an image file.
+  * POST, http://127.0.0.1:5000/hello
+  * The body should have field `'file'` with an image file.
 * You should get a response with an imagenet class.
